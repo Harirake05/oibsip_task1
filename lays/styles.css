@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffd900;
+    
+    padding: 20px;
+  }
+  
+  nav ul {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color:red;
+  }
+  
+  #hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ff0000;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #about {
+    background-color: #fbd345;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #products {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .products-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .product img {
+    width: 100%;
+  }
+  
+  #contact {
+    background-color: #effc5b;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .contact-content form input,
+  .contact-content form textarea {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .contact-content form button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
